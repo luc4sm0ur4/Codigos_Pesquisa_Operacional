@@ -1,0 +1,49 @@
+# Dados do problema
+
+param Capacidade :=
+1 300  # Capacidade do Centro 1
+2 450  # Capacidade do Centro 2
+3 250  # Capacidade do Centro 3
+4 480;  # Capacidade do Centro 4
+
+param Custo_sh :=
+1 1 150  # Custo de processamento do óleo tipo I no Centro 1
+1 2 170  # Custo de processamento do óleo tipo II no Centro 1
+2 1 200  # Custo de processamento do óleo tipo I no Centro 2
+2 2 180  # Custo de processamento do óleo tipo II no Centro 2
+3 1 250  # Custo de processamento do óleo tipo I no Centro 3
+3 2 220  # Custo de processamento do óleo tipo II no Centro 3
+4 1 180  # Custo de processamento do óleo tipo I no Centro 4
+4 2 240;  # Custo de processamento do óleo tipo II no Centro 4
+
+param Recuperacao :=
+1 1 0.90  # Taxa de recuperação do óleo tipo I no Centro 1
+1 2 0.95  # Taxa de recuperação do óleo tipo II no Centro 1
+2 1 0.85  # Taxa de recuperação do óleo tipo I no Centro 2
+2 2 0.80  # Taxa de recuperação do óleo tipo II no Centro 2
+3 1 0.85  # Taxa de recuperação do óleo tipo I no Centro 3
+3 2 0.75  # Taxa de recuperação do óleo tipo II no Centro 3
+4 1 0.80  # Taxa de recuperação do óleo tipo I no Centro 4
+4 2 0.70;  # Taxa de recuperação do óleo tipo II no Centro 4
+
+param Custo_materia_prima :=
+1 5  # Custo da matéria-prima para o óleo tipo I
+2 6;  # Custo da matéria-prima para o óleo tipo II
+
+param Preco_venda :=
+1 20  # Preço de venda do óleo tipo I
+2 18;  # Preço de venda do óleo tipo II
+
+param Venda_diaria_maxima :=
+1 1700  # Quantidade máxima que pode ser vendida diariamente de óleo tipo I
+2 1500;  # Quantidade máxima que pode ser vendida diariamente de óleo tipo II
+
+param Horas_operacao :=
+1 16  # Horas de operação diárias do Centro 1
+2 12  # Horas de operação diárias do Centro 2
+3 12  # Horas de operação diárias do Centro 3
+4 16;  # Horas de operação diárias do Centro 4
+
+param Capacidade_transporte := 2500;  # Capacidade máxima de transporte diária
+
+end;

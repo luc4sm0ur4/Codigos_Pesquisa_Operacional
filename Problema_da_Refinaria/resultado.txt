@@ -1,0 +1,51 @@
+Problem:    refinaria
+Rows:       11
+Columns:    5
+Non-zeros:  25
+Status:     OPTIMAL
+Objective:  Lucro = 28782.8655 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Lucro        B        28782.9                             
+     2 Capacidade1  B        9.74659                          16 
+     3 Capacidade2  B        11.4035                          12 
+     4 Capacidade3  NU            12                          12       1037.08 
+     5 Capacidade4  B        6.09375                          16 
+     6 Transporte   B           2040                        2500 
+     7 Venda1       NU          1700                        1700       9.61051 
+     8 Venda2       B            340                        1500 
+     9 NaoNegatividade1
+                    B              0            -0               
+    10 NaoNegatividade2
+                    B        2923.98            -0               
+    11 NaoNegatividade3
+                    B              0            -0               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[2]         B        555.556             0               
+     2 x[1]         NL             0             0                          -5 
+     3 x_N[1]       B        2923.98             0               
+     4 x_N[2]       NL             0             0                          -1 
+     5 x_A[1]       NL             0             0                    -4.29925 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.78e-15 on row 4
+        max.rel.err = 7.11e-17 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.78e-15 on column 3
+        max.rel.err = 1.01e-16 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

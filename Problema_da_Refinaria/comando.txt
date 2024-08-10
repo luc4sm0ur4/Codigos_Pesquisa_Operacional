@@ -1,0 +1,2 @@
+glpsol --math refinaria.mod --data refinaria.dat -o resultado.txt
+

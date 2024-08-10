@@ -1,0 +1,1 @@
+glpsol --math Problema7_8.mod --data dados_problema7_8.dat --output resultado.txt

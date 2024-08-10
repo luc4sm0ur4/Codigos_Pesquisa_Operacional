@@ -1,0 +1,2 @@
+glpsol --math Problema1_RedeAgua_AGM.mod --data dados_problema1_Rede_Agua_AGM.data --output resultado.txt
+

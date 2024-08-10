@@ -1,0 +1,1 @@
+glpsol --math Problema6.mod --data dados_problema6.dat --output resultado.txt

@@ -1,0 +1,41 @@
+Problem:    Problema2
+Rows:       6
+Columns:    6 (6 integer, 6 binary)
+Non-zeros:  18
+Status:     INTEGER OPTIMAL
+Objective:  total_cost = 12 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 total_cost                 12                             
+     2 fluxo_origem[1]
+                                   1             1             = 
+     3 fluxo_destino[5]
+                                  -1            -1             = 
+     4 fluxo_intermediario[2]
+                                   0            -0             = 
+     5 fluxo_intermediario[3]
+                                   0            -0             = 
+     6 fluxo_intermediario[4]
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,2]       *              0             0             1 
+     2 x[1,3]       *              1             0             1 
+     3 x[2,3]       *              0             0             1 
+     4 x[2,4]       *              0             0             1 
+     5 x[3,4]       *              1             0             1 
+     6 x[4,5]       *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

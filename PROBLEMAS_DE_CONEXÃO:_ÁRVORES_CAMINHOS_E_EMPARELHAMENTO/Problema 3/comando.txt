@@ -1,0 +1,1 @@
+glpsol --math Problema3_problema_reabastecimento_carros_eletricos.mod --data dados_problema3.dat --output resultado.txt
